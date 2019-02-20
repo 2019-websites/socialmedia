@@ -158,7 +158,23 @@ header .search-area ul li {
 =================================  */
 
 #content-area {
+  background: #fafafa;
+  overflow: auto;
+  padding: 50px 0;
+}
 
+#content-area .widget-box{
+  background: #fff;
+  box-shadow: 0 2px 5px -1px rgba(138, 138, 138, 1);
+    border-radius: 3px;
+    margin:  0 0 15px 0;
+}
+
+#content-area .widget-box .head .widget-img {
+  background-color: #bfbfbf;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 #content-area .side-column {
